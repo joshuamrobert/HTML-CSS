@@ -1,0 +1,35 @@
+<html>
+<head><title>Tour Information</title></head>
+<body>
+ 
+<h2>Mission Information</h2>
+ 
+<form >
+  <table width="100%">
+    <tr><td><label for="a">Ship Name:</label>></td><td><input type="text" id="a" name="ship" required></td></tr>
+    <tr><td>Trip Date:</td><td><input type="date" name="tripdate" required></td></tr>
+    <tr><td colspan="2">Mission Goals:</td></tr>
+    <tr>
+      <td><input type="checkbox" name="exploration" value="yes" />
+               Exploration</td>
+      <td><input type="checkbox" name="contact" value="yes" />
+               Contact</td>
+    </tr>
+    <tr>
+      <td valign="top">Crew species:  </td>
+      <td>
+        <select name="crew" multiple="multiple">
+           <option value="xebrax">Xebrax</option>
+           <option value="snertal">Snertal</option>
+           <option value="gosny">Gosny</option></select>
+        </td>
+      </tr>
+      <tr> <td> Any additional comments?</td> <td>
+     <textarea name="message" rows="5" cols="30">Write additional comments here.. </textarea> </td></tr>
+      <tr><td colspan="2" align="center"><input type="submit" /></td></tr>
+    </table>
+  </form>
+   
+  </body>
+  </html>
+  
